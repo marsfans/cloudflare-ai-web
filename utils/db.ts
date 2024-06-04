@@ -75,8 +75,32 @@ export const uniModals: Model[] = [
         type: 'universal'
     }
 ]
-
-export const textGenModels: Model[] = [{
+export const textGenModels: Model[] = [/*{
+    id: 'gemini-pro',
+    name: 'Gemini Pro',
+    provider: 'google',
+    type: 'chat'
+}, {
+    id: 'gemini-1.5-flash-latest',
+    name: 'Gemini 1.5 Flash',
+    provider: 'google',
+    type: 'chat'
+},{
+    id: 'gemini-1.0-pro-001"',
+    name: 'Gemini 1.0 Pro 001',
+    provider: 'google',
+    type: 'chat'
+},{
+    id: 'gemini-1.0-pro-latest',
+    name: 'Gemini 1.0 Pro Latest',
+    provider: 'google',
+    type: 'chat'
+},{
+    id: 'gemini-1.5-pro-latest',
+    name: 'Gemini 1.5 Pro Latest',
+    provider: 'google',
+    type: 'chat'
+},*/{
     id: 'gpt-3.5-turbo',
     name: 'ChatGPT-3.5-turbo',
     provider: 'openai',
@@ -117,8 +141,57 @@ export const textGenModels: Model[] = [{
     name: 'llama-3-8b-instruct',
     provider: 'workers-ai',
     type: 'chat'
+}, {
+    id: '@cf/deepseek-ai/deepseek-math-7b-instruct',
+    name: 'deepseek-math-7b-instruct',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/deepseek-ai/deepseek-math-7b-base',
+    name: 'deepseek-math-7b-base',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/thebloke/discolm-german-7b-v1-awq',
+    name: 'discolm-german-7b-v1-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/thebloke/llamaguard-7b-awq',
+    name: 'llamaguard-7b-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/mistral/mistral-7b-instruct-v0.2-lora',
+    name: 'mistral-7b-instruct-v0.2-lora',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/thebloke/zephyr-7b-beta-awq',
+    name: 'zephyr-7b-beta-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/tiiuae/falcon-7b-instruct',
+    name: 'falcon-7b-instruct',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/thebloke/discolm-german-7b-v1-awq',
+    name: 'discolm-german-7b-v1-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/thebloke/zephyr-7b-beta-awq',
+    name: 'zephyr-7b-beta-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/microsoft/phi-2',
+    name: 'phi-2',
+    provider: 'workers-ai',
+    type: 'chat'
 }]
-
 export const imageGenModels: Model[] = [{
     id: '@cf/lykon/dreamshaper-8-lcm',
     name: 'dreamshaper-8-lcm',

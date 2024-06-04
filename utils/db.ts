@@ -73,34 +73,34 @@ export const uniModals: Model[] = [
         name: 'Gemini 1.5 flash',
         provider: 'google',
         type: 'universal'
-    }
-]
-export const textGenModels: Model[] = [/*{
-    id: 'gemini-pro',
-    name: 'Gemini Pro',
-    provider: 'google',
-    type: 'chat'
-}, {
+    },{
     id: 'gemini-1.5-flash-latest',
     name: 'Gemini 1.5 Flash',
     provider: 'google',
-    type: 'chat'
+    type: 'universal'
 },{
     id: 'gemini-1.0-pro-001"',
     name: 'Gemini 1.0 Pro 001',
     provider: 'google',
-    type: 'chat'
+    type: 'universal'
 },{
     id: 'gemini-1.0-pro-latest',
     name: 'Gemini 1.0 Pro Latest',
     provider: 'google',
-    type: 'chat'
+    type: 'universal'
 },{
     id: 'gemini-1.5-pro-latest',
     name: 'Gemini 1.5 Pro Latest',
     provider: 'google',
+    type: 'universal'
+}
+]
+export const textGenModels: Model[] = [{
+    id: 'gemini-pro',
+    name: 'Gemini Pro',
+    provider: 'google',
     type: 'chat'
-},*/{
+},{
     id: 'gpt-3.5-turbo',
     name: 'ChatGPT-3.5-turbo',
     provider: 'openai',
@@ -120,7 +120,7 @@ export const textGenModels: Model[] = [/*{
     id: '@cf/google/gemma-7b-it-lora',
     name: 'gemma-7b-it-lora',
     provider: 'workers-ai',
-    type: 'chat'
+    type: 'universal'
 }, {
     id: '@hf/thebloke/openhermes-2.5-mistral-7b-awq',
     name: 'openhermes-2.5-mistral-7b-awq',
@@ -140,7 +140,7 @@ export const textGenModels: Model[] = [/*{
     id: '@cf/meta/llama-3-8b-instruct',
     name: 'llama-3-8b-instruct',
     provider: 'workers-ai',
-    type: 'chat'
+    type: 'universal'
 }, {
     id: '@cf/deepseek-ai/deepseek-math-7b-instruct',
     name: 'deepseek-math-7b-instruct',

@@ -137,6 +137,11 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'universal'
 }, {
+    id: '@cf/meta/llama-3.1-8b-instruct',
+    name: 'llama-3.1-8b-instruct',
+    provider: 'workers-ai',
+    type: 'universal'
+}, {
     id: '@cf/deepseek-ai/deepseek-math-7b-instruct',
     name: 'deepseek-math-7b-instruct',
     provider: 'workers-ai',

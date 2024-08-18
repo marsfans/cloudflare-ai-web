@@ -193,6 +193,16 @@ export const textGenModels: Model[] = [{
     type: 'chat'
 }]
 export const imageGenModels: Model[] = [{
+    id: '@cf/runwayml/stable-diffusion-v1-5-img2img',
+    name: 'stable-diffusion-v1-5-img2img',
+    provider: 'workers-ai-image',
+    type: 'text-to-image'
+}, {
+    id: '@cf/runwayml/stable-diffusion-v1-5-inpainting',
+    name: 'stable-diffusion-v1-5-inpainting',
+    provider: 'workers-ai-image',
+    type: 'text-to-image'
+}, {
     id: '@cf/lykon/dreamshaper-8-lcm',
     name: 'dreamshaper-8-lcm',
     provider: 'workers-ai-image',

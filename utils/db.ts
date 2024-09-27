@@ -147,8 +147,7 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'universal'
 }, {
-    id: '@cf/meta/llama-3.2-11b-vision-instruct
-',
+    id: '@cf/meta/llama-3.2-11b-vision-instruct',
     name: 'llama-3.2-11b-vision-instruct',
     provider: 'workers-ai',
     type: 'universal'

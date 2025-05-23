@@ -77,6 +77,11 @@ export const uniModals: Model[] = [
 ]
 
 export const textGenModels: Model[] = [{
+    id: 'gemini-pro',
+    name: 'Gemini Pro',
+    provider: 'google',
+    type: 'chat'
+},{
     id: 'gpt-3.5-turbo',
     name: 'ChatGPT-3.5-turbo',
     provider: 'openai',
@@ -96,7 +101,7 @@ export const textGenModels: Model[] = [{
     id: '@cf/google/gemma-7b-it-lora',
     name: 'gemma-7b-it-lora',
     provider: 'workers-ai',
-    type: 'chat'
+    type: 'universal'
 }, {
     id: '@hf/thebloke/openhermes-2.5-mistral-7b-awq',
     name: 'openhermes-2.5-mistral-7b-awq',
@@ -116,10 +121,85 @@ export const textGenModels: Model[] = [{
     id: '@cf/meta/llama-3-8b-instruct',
     name: 'llama-3-8b-instruct',
     provider: 'workers-ai',
+    type: 'universal'
+}, {
+    id: '@cf/meta/llama-3.1-8b-instruct',
+    name: 'llama-3.1-8b-instruct',
+    provider: 'workers-ai',
+    type: 'universal'
+}, {
+    id: '@cf/meta/llama-3.2-3b-instruct',
+    name: 'llama-3.2-3b-instruct',
+    provider: 'workers-ai',
+    type: 'universal'
+}, {
+    id: '@cf/meta/llama-3.2-11b-vision-instruct',
+    name: 'llama-3.2-11b-vision-instruct',
+    provider: 'workers-ai',
+    type: 'universal'
+}, {
+    id: '@cf/deepseek-ai/deepseek-math-7b-instruct',
+    name: 'deepseek-math-7b-instruct',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/deepseek-ai/deepseek-math-7b-base',
+    name: 'deepseek-math-7b-base',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/thebloke/discolm-german-7b-v1-awq',
+    name: 'discolm-german-7b-v1-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/thebloke/llamaguard-7b-awq',
+    name: 'llamaguard-7b-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/mistral/mistral-7b-instruct-v0.2-lora',
+    name: 'mistral-7b-instruct-v0.2-lora',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/thebloke/zephyr-7b-beta-awq',
+    name: 'zephyr-7b-beta-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/tiiuae/falcon-7b-instruct',
+    name: 'falcon-7b-instruct',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/thebloke/discolm-german-7b-v1-awq',
+    name: 'discolm-german-7b-v1-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/thebloke/zephyr-7b-beta-awq',
+    name: 'zephyr-7b-beta-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/microsoft/phi-2',
+    name: 'phi-2',
+    provider: 'workers-ai',
     type: 'chat'
 }]
 
 export const imageGenModels: Model[] = [{
+    id: '@cf/runwayml/stable-diffusion-v1-5-img2img',
+    name: 'stable-diffusion-v1-5-img2img',
+    provider: 'workers-ai-image',
+    type: 'text-to-image'
+}, {
+    id: '@cf/runwayml/stable-diffusion-v1-5-inpainting',
+    name: 'stable-diffusion-v1-5-inpainting',
+    provider: 'workers-ai-image',
+    type: 'text-to-image'
+}, {
     id: '@cf/lykon/dreamshaper-8-lcm',
     name: 'dreamshaper-8-lcm',
     provider: 'workers-ai-image',
